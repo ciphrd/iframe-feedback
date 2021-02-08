@@ -1,0 +1,30 @@
+// Apply a natural box layout model to all elements
+// but allowing components to change
+// http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+	overflow: hidden;	// hides the scrollbar if window gets too small
+}
+
+iframe {
+	width: 90vw;
+	height: 90vh;
+}
+
+h1 {
+	position: absolute;
+	margin: 0;
+}
+
+nav {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
