@@ -11,16 +11,17 @@ html {
 body {
 	margin: 0;
 	overflow: hidden;	// hides the scrollbar if window gets too small
+	width: 100vw;			// set the body to the same size as the viewport
+	height: 100vh;
 }
 
 iframe {
-	width: 90vw;
-	height: 90vh;
+	width: 80vw;	// 90% of the width
+	height: 80vh;	// 90% of the height
 }
 
 h1 {
-	position: absolute;
-	margin: 0;
+	position: absolute;	// makes the title "float" on the top left
 }
 
 nav {

@@ -44,12 +44,11 @@ Build the app in dev mode and run webpack serve with livereload and autocompile 
 $ npm run dev
 ```
 
+Go to [http://localhost:8080](http://localhost:8080)
+
 
 ## Production
 If you want to put your work online, run the following command and host the generated files in `/dist` (a static files server will do the job).
 ```sh
 $ npm run build
 ```
-
-
-## FORKED FROM
