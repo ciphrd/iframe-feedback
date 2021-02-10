@@ -1,9 +1,11 @@
 Iframe feedback
 ========
 
+![Preview](preview/thumbnail.gif)
+
 The concept of iframe feedback is very simple: a web document which shows an iframe with an url pointing to itself. If a script handles when the iframe is inserted in the document, the script can decide the delay between two *frames* (I mean the thing is called an i**frame**, at some point this had to be done). The rendering logic to blend the frames is up to each case.
 
-> more infos about the iframe feedback on my blog
+> more infos about the iframe feedback [on my blog](https://ciphrd.com/2021/02/10/iframe-feedback-a-fun-technique-with-iframes-on-the-web/)
 
 
 ## What does this "iframe feedback" boilerplate does
