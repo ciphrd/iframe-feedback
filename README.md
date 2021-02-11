@@ -54,3 +54,8 @@ If you want to put your work online, run the following command and host the gene
 ```sh
 $ npm run build
 ```
+
+
+## Credits
+
+The original webpack boilerplate comes from [https://github.com/cvgellhorn/webpack-boilerplate](https://github.com/cvgellhorn/webpack-boilerplate)
